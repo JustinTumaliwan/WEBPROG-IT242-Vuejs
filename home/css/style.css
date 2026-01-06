@@ -1,3 +1,10 @@
+#app {
+      display: inline-block;
+      padding: 10px;
+      font-size: x-large;
+      background-color: lightgreen;
+    }
+
 body {
   background-color: lightgreen;
 }
@@ -80,11 +87,4 @@ nav ul {
   nav ul {
     flex-direction: column;
   }
-}
-
-#app {
-    display: inline-block;
-    padding: 10px;
-    font-size: x-large;
-    background-color: lightgreen;
 }
