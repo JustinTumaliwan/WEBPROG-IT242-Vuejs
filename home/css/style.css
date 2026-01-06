@@ -1,6 +1,57 @@
-#app {
-      display: inline-block;
-      padding: 10px;
-      font-size: x-large;
-      background-color: lightgreen;
-    }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: navy;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+h3 {
+  color: navy;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.paragraph {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.container1 div {
+  background-color: #f1f1f1;
+  max-width: 220px; 
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.container1 img {
+    max-width: 100%;
+    height: auto;
+}
